@@ -1,0 +1,40 @@
+.failure-view {
+  width: 100%;
+}
+
+.failure-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+  border-radius: 10px;
+}
+.failure-view-container {
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.failure-heading {
+  color: red;
+  font-size: 18px;
+}
+.failure-description {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  .failure-view {
+    width: 40%;
+  }
+
+  .failure-description {
+    font-size: 20px;
+  }
+  .failure-heading {
+    font-size: 30px;
+  }
+}

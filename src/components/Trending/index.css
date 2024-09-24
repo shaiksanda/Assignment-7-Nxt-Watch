@@ -1,0 +1,49 @@
+.trending-image {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.each-data {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  gap: 10px;
+}
+
+.image-container {
+  width: 100%;
+}
+.trending-data-container {
+  width: 100%;
+}
+
+.trending-heading {
+  font-size: 20px;
+  color: #424242;
+}
+.name {
+  color: #424242;
+  font-size: 24px;
+}
+.views {
+  color: #424242;
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .trending-image {
+    width: 100%;
+  }
+  .trending-heading {
+    font-size: 23px;
+  }
+  .trending-data-container {
+    width: 50%;
+  }
+  .image-container {
+    width: 50%;
+  }
+  .each-data {
+    flex-direction: row;
+  }
+}

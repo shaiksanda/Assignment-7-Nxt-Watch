@@ -1,0 +1,42 @@
+.saved-videos-heading {
+  font-size: 24px;
+  color: #00306e;
+  font-weight: bold;
+}
+.saved-videos-heading-1 {
+  font-size: 10px;
+  color: #00306e;
+  font-weight: bold;
+}
+.saved-video-desription {
+  font-size: 16px;
+}
+.saved-image {
+  width: 150px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.saved-image:hover {
+  transform: scale(1.02);
+}
+.saved-description {
+  font-size: 8px;
+}
+@media screen and (min-width: 768px) {
+  .saved-videos-heading {
+    font-size: 30px;
+  }
+  .saved-description {
+    font-size: 16px;
+  }
+  .saved-videos-heading-1 {
+    font-size: 30px;
+  }
+  .saved-video-desription {
+    font-size: 20px;
+  }
+  .saved-image {
+    width: 400px;
+  }
+}

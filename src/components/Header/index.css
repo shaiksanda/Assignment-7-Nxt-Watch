@@ -1,0 +1,101 @@
+.mobile-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.medium-container {
+  display: none;
+}
+
+.profile {
+  width: 50px;
+  cursor: pointer;
+}
+
+.logout-button {
+  height: 40px;
+  width: 120px;
+  border: none;
+  border-radius: 8px;
+  background-color: orangered;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.popup-content {
+  padding: 20px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  background-color: white; /* Ensure it's visible */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add some shadow for depth */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin: 10px;
+}
+.popup-heading {
+  color: #3b82f6;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.confirm-button {
+  width: 90px;
+  height: 40px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.close-button {
+  width: 90px;
+  height: 40px;
+  border: none;
+  background-color: darkmagenta;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.popup-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    padding: 10px 30px 10px 30px;
+    justify-content: space-between;
+  }
+  .mobile-container {
+    display: none;
+  }
+  .close-button {
+    width: 120px;
+  }
+  .popup-content {
+    width: 450px;
+    height: 300px;
+  }
+  .confirm-button {
+    width: 120px;
+  }
+
+  .medium-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}

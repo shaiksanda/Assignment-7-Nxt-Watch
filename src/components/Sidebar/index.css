@@ -1,0 +1,56 @@
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  box-sizing: border-box;
+}
+.icon-container:hover {
+  transform: scale(1.02);
+  background-color: #d7dfe9;
+  border-radius: 8px;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.logos {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.logos-container {
+  display: flex;
+  gap: 10px;
+}
+.contact-us {
+  font-size: 28px;
+  color: #1e293b;
+  font-weight: bold;
+}
+.content {
+  font-size: 18px;
+  font-weight: 700;
+  color: #383838;
+}
+.sidebar-container {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar-container {
+    width: 20%;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 60px); /* Full height minus header */
+    /* Aligns with the left edge */
+    position: fixed;
+    top: 60px;
+    left: 0;
+  }
+}
